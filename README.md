@@ -17,3 +17,5 @@
 [7] "A Neural Conversational Model". Oriol Vinyals, Quoc Le. 2015. https://arxiv.org/abs/1506.05869
 
 [8] "Language Modelling for Handling Out-of-Vocabulary Words in Natural Language Processing". Shabeel Meemulla Kandi. 2018. https://www.researchgate.net/publication/335757797_Language_Modelling_for_Handling_Out-of-Vocabulary_Words_in_Natural_Language_Processing
+
+[9] "Attention Is All You Need". Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin. 2017. https://arxiv.org/abs/1706.03762
