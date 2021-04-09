@@ -15,3 +15,5 @@
 [6] "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation". Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, Yoshua Bengio. 2014. https://arxiv.org/abs/1406.1078
 
 [7] "A Neural Conversational Model". Oriol Vinyals, Quoc Le. 2015. https://arxiv.org/abs/1506.05869
+
+[8] "Language Modelling for Handling Out-of-Vocabulary Words in Natural Language Processing". Shabeel Meemulla Kandi. 2018. https://www.researchgate.net/publication/335757797_Language_Modelling_for_Handling_Out-of-Vocabulary_Words_in_Natural_Language_Processing
