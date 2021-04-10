@@ -104,7 +104,10 @@ pip install -r requirements.txt
 
 ## Conclusions
 
-Based on the previous research done on this task, Machine Translation has been proposed to improve the accuracy and perform better than machine learning classification algorithms. Here we have implemented the same and the Sequence2Sequence model has shown to have 81% accuracy. And the accuracy can be icreased by further experimenting with more Attention Layers and changing the parameters.  
+- RNNs are a good conceptual fit with NLP, but according to research, methods using attention have been achieving state of the art results on NLP.
+- Based on the previous research done on this task, Machine Translation has been proposed to improve the accuracy and perform better than machine learning classification algorithms. Here we have implemented the same and the Sequence2Sequence Attention model has shown to have 81% accuracy. 
+- The accuracy can be icreased by further experimenting with more Attention Layers and changing the parameters.  
+
 
 ## Future Scope
 
@@ -113,6 +116,7 @@ Based on the previous research done on this task, Machine Translation has been p
 3. 3-5 Attention Layers with Cross Entropy Validation in Seq2Seq Machine Transaltion
 4. Training the Transformer Model for Machine Translation
 5. Ensembling the best Seq2Seq Attention model explored with the Transformer model
+6. More research is needed on the various strenghts of RNNs, CNNs, and transformers/attention and ensembling the approaches to combine the best of each.
 
 
 ## Publication References
