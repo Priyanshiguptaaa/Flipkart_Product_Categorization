@@ -65,7 +65,13 @@ https://docs.google.com/spreadsheets/d/1pLv0fNE4WHokpJHUIs-FTVnmI9STgog05e658qEO
 #### Techniques - 
 
 1. [Decision Tree Classification using Topic Modelling (Gensim's Latent Dirichlet Allocation Multicore algorithm )](#)
+
 2. [Seq2Seq + Attention + Teacher Forcing Neural Machine Transaltion ( 1 Attention Layer )](#)
+
+#### Classification Report
+
+![after_cleaning_categories](https://github.com/Priyanshiguptaaa/Flipkart_Product_Categorization/blob/main/results/Classificationreport_seq2seq.png)
+
 3. [Tuning BERT Tansformer model for Machine Translation](#)
 
 ## Models Summary
