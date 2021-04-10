@@ -48,22 +48,24 @@ https://docs.google.com/spreadsheets/d/1pLv0fNE4WHokpJHUIs-FTVnmI9STgog05e658qEO
 
 ## Approaches
 
-Features Used
+#### Features Used
 
 | Feature Name       | Type            | Description                           |
 | ---                | ---             | ---                                   | 
 | Description            | STR             | The description of the Product  (Primary Feature)      |
 | Product_Category_Tree           | STR            | Used to Extract the Primary Category        |
 
-### Techniques - 
+#### Techniques - 
 
-1. [Decision Tree Classification using Topic Modelling (Gensim's Latent Dirichlet Allocation algorithm )](#decision-tree-classification)
-2. [Seq2Seq + Attention + Teacher Forcing Neural Machine Transaltion ( 1 Attention Layer )](#seq-2-seq-attention-neural-machine-translation)
-3. Tuning BERT Tansformer model for Machine Translation and using BLEU Evaluation Metric
+1. [Decision Tree Classification using Topic Modelling (Gensim's Latent Dirichlet Allocation Multicore algorithm )](#)
+2. [Seq2Seq + Attention + Teacher Forcing Neural Machine Transaltion ( 1 Attention Layer )](#)
+3. [Tuning BERT Tansformer model for Machine Translation and using BLEU Evaluation Metric](#)
 
-#### Decision Tree Classification
+## Future Scope
 
-#### Seq2Seq Attention Neural Machine Transaltion
+1. 3-5 Attention Layers in Seq2Seq Translation
+2. 3-5 Attention Layers with Cross Validation in Seq2Seq Machine Transaltion
+3. Ensembling the best Seq2Seq Attention model explored with the Transformer model
 
 ## References
 
