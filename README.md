@@ -41,6 +41,15 @@ https://docs.google.com/spreadsheets/d/1pLv0fNE4WHokpJHUIs-FTVnmI9STgog05e658qEO
 - The dataset has 2 NA values in the Description which were Dropped
 - The Product Category Tree has 337 Rows of Data that does not have a Primary Category Specified, thus they were categorised as "Others" to avoid loss of Data
 
+The following steps are performed:
+
+1.   Tokenization: Split the text into sentences and the sentences into words. 
+2.   Lowercase the words and remove punctuation.
+3.   Words that have fewer than 3 characters are removed.
+4.   All stopwords are removed.
+5.   Words are lemmatized — words in third person are changed to first person and verbs in past and future tenses are changed into present.
+6.   Words are stemmed — words are reduced to their root form.
+
 **Note: Alternate approach to cleaning can be using BeautifulSoup and Selenium to scrape the product category from the website using the Product URL 
 
 
@@ -64,7 +73,9 @@ https://docs.google.com/spreadsheets/d/1pLv0fNE4WHokpJHUIs-FTVnmI9STgog05e658qEO
 
 #### Techniques - 
 
-1. [Decision Tree Classification using Topic Modelling (Gensim's Latent Dirichlet Allocation Multicore algorithm )](https://github.com/Priyanshiguptaaa/Flipkart_Product_Categorization/tree/main/Decision_Tree_Classification_LDA)
+1. [Topic Modelling (Gensim's Latent Dirichlet Allocation Multicore algorithm )(https://github.com/Priyanshiguptaaa/Flipkart_Product_Categorization/tree/main/Decision_Tree_Classification_LDA)
+
+Topic modeling is a type of statistical modeling for discovering the abstract “topics” that occur in a collection of documents. Latent Dirichlet Allocation (LDA) is an example of topic model and is used to classify text in a document to a particular topic. It builds a topic per document model and words per topic model, modeled as Dirichlet distributions.
 
 2. [Seq2Seq + Attention + Teacher Forcing Neural Machine Transaltion ( 1 Attention Layer )](https://github.com/Priyanshiguptaaa/Flipkart_Product_Categorization/tree/main/Seq2Seq_Attention_Machine_Translation)
 
@@ -85,9 +96,10 @@ For product categorization task, the conventional methods are based on machine l
 
 ## Future Scope
 
-1. 3-5 Attention Layers in Seq2Seq Translation
-2. 3-5 Attention Layers with Cross Entropy Validation in Seq2Seq Machine Transaltion
-3. Ensembling the best Seq2Seq Attention model explored with the Transformer model
+1. Running LDA using TFIDF
+2. 3-5 Attention Layers in Seq2Seq Translation
+3. 3-5 Attention Layers with Cross Entropy Validation in Seq2Seq Machine Transaltion
+4. Ensembling the best Seq2Seq Attention model explored with the Transformer model
 
 ## Publication References
 
