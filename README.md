@@ -64,9 +64,9 @@ https://docs.google.com/spreadsheets/d/1pLv0fNE4WHokpJHUIs-FTVnmI9STgog05e658qEO
 
 #### Techniques - 
 
-1. [Decision Tree Classification using Topic Modelling (Gensim's Latent Dirichlet Allocation Multicore algorithm )](#)
+1. [Decision Tree Classification using Topic Modelling (Gensim's Latent Dirichlet Allocation Multicore algorithm )](https://github.com/Priyanshiguptaaa/Flipkart_Product_Categorization/tree/main/Decision_Tree_Classification_LDA)
 
-2. [Seq2Seq + Attention + Teacher Forcing Neural Machine Transaltion ( 1 Attention Layer )](#)
+2. [Seq2Seq + Attention + Teacher Forcing Neural Machine Transaltion ( 1 Attention Layer )](https://github.com/Priyanshiguptaaa/Flipkart_Product_Categorization/tree/main/Seq2Seq_Attention_Machine_Translation)
 
 #### Classification Report
 
