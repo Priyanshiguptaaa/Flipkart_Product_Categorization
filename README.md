@@ -1,5 +1,68 @@
 # Flipkart_Product_Categorization
 
+## Table of Contents
+
+1. [About](#about)
+2. [Installation](#installation)
+3. [Data Aquisition](#data-aquisition)
+4. [Data Exploration & Cleaning](#data-exploration-and-cleaning)
+5. [Data Visualzation](#data-visualization)
+6. [Approaches](#approaches)
+7. [Build on Google Colab](#build-on-google-colab)
+8. [Models Summary](#models-summary)
+9. [Conclusions](#concluions)
+10. [Future Scope](#future-scope)
+11. [Code References](#code-references)
+12. [References](#references)
+
+## About
+
+This repository illustrates the task of Category Prediction of an E-Commerce Website data (Flipkart), classification of the description of products into the primary categry of their category tree, and getting the notebook documenting the path to an optimal model pipeline
+
+## Installation
+
+ Clone the repo
+
+```bash
+git clone https://github.com/Priyanshiguptaaa/Flipkart_Product_Categorization/-.git
+cd Flipkart_Product_Categorization/
+```
+
+** Note: The Code is Implemented in Google Colaboratory that lets us build the project without installing it locally. Installation of some libraries may take some time depending on your internet connection and system properties. You can download the Colab Notebook as a Jupyter Notebook and Run it Locally or on the Google Colab Platform as well
+
+## Data Aquisition
+
+You can download the E-Commerce Dataset sample from here
+
+https://docs.google.com/spreadsheets/d/1pLv0fNE4WHokpJHUIs-FTVnmI9STgog05e658qEON0I/edit#gid=1396401268
+
+## Data Exploration and Cleaning
+
+- The dataset has 2 NA values in the Description which were Dropped
+- The Product Category Tree has 337 Rows of Data that does not have a Primary Category Specified, thus they were categorised as "Others" to avoid loss of Data
+
+
+## Data Visualization
+
+## Approaches
+
+Features Used
+
+| Feature Name       | Type            | Description                           |
+| ---                | ---             | ---                                   | 
+| Description            | STR             | The description of the Product  (Primary Feature)      |
+| Product_Category_Tree           | STR            | Used to Extract the Primary Category        |
+
+### Techniques - 
+
+1. [Decision Tree Classification using Topic Modelling (Gensim's Latent Dirichlet Allocation algorithm )](#decision-tree-classification)
+2. [Seq2Seq + Attention + Teacher Forcing Neural Machine Transaltion ( 1 Attention Layer )](#seq-2-seq-attention-neural-machine-translation)
+3. Tuning BERT Tansformer model for Machine Translation and using BLEU Evaluation Metric
+
+#### Decision Tree Classification
+
+#### Seq2Seq Attention Neural Machine Transaltion
+
 ## References
 
 [1] "Unconstrained Product Categorization with Sequence-to-Sequence Models". Maggie Yundi Li, Liling Tan, Stanley Kok, Ewa Szymanska. 2018. https://www.comp.nus.edu.sg/~skok/papers/ecomdc18.pdf
@@ -21,3 +84,4 @@
 [9] "Attention Is All You Need". Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin. 2017. https://arxiv.org/abs/1706.03762
 
 [10] "Pay Less Attention with Lightweight and Dynamic Convolutions". Felix Wu, Angela Fan, Alexei Baevski, Yann N. Dauphin, Michael Auli. 2019. https://arxiv.org/abs/1901.10430
+
