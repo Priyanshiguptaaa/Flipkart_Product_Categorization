@@ -46,6 +46,13 @@ https://docs.google.com/spreadsheets/d/1pLv0fNE4WHokpJHUIs-FTVnmI9STgog05e658qEO
 
 ## Data Visualization
 
+#### The Value Counts after cleaning the Primary Categories
+![after_cleaning_categories](https://github.com/Priyanshiguptaaa/Flipkart_Product_Categorization/blob/main/visualizations/after_cleaning_categories.png)
+
+#### Visualising the Length of Description in a Box Plot to get inference on Variation from the Mean
+![](https://github.com/Priyanshiguptaaa/Flipkart_Product_Categorization/blob/main/visualizations/boxplot_descriptionlength.png)
+
+
 ## Approaches
 
 #### Features Used
@@ -59,7 +66,13 @@ https://docs.google.com/spreadsheets/d/1pLv0fNE4WHokpJHUIs-FTVnmI9STgog05e658qEO
 
 1. [Decision Tree Classification using Topic Modelling (Gensim's Latent Dirichlet Allocation Multicore algorithm )](#)
 2. [Seq2Seq + Attention + Teacher Forcing Neural Machine Transaltion ( 1 Attention Layer )](#)
-3. [Tuning BERT Tansformer model for Machine Translation and using BLEU Evaluation Metric](#)
+3. [Tuning BERT Tansformer model for Machine Translation](#)
+
+## Models Summary
+
+| Model Name       | Accuracy           |       
+| ---                | ---             |  
+| Seq2Seq + Attention + Teacher Forcing       | 81%    |       
 
 ## Future Scope
 
