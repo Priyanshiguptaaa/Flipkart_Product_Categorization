@@ -12,8 +12,7 @@
 8. [Models Summary](#models-summary)
 9. [Conclusions](#concluions)
 10. [Future Scope](#future-scope)
-11. [Code References](#code-references)
-12. [Publication References](#publication-references)
+11. [Publication References](#publication-references)
 
 ## About
 
@@ -73,7 +72,7 @@ The following steps are performed:
 
 #### Techniques - 
 
-1. [Topic Modelling (Gensim's Latent Dirichlet Allocation Multicore algorithm )(https://github.com/Priyanshiguptaaa/Flipkart_Product_Categorization/tree/main/Decision_Tree_Classification_LDA)
+1. [Topic Modelling (Gensim's Latent Dirichlet Allocation Multicore algorithm )](https://github.com/Priyanshiguptaaa/Flipkart_Product_Categorization/tree/main/LDA_Multicore_TopicModelling)
 
 Topic modeling is a type of statistical modeling for discovering the abstract “topics” that occur in a collection of documents. Latent Dirichlet Allocation (LDA) is an example of topic model and is used to classify text in a document to a particular topic. It builds a topic per document model and words per topic model, modeled as Dirichlet distributions.
 
@@ -88,6 +87,17 @@ For product categorization task, the conventional methods are based on machine l
 
 3. [Tuning BERT Tansformer model for Machine Translation](#)
 
+## Building on Google Colab
+
+To get started, upload and open the notebooks in playground mode and run the cells(You must be logged in with your google account and provide additional authorization). If you want to run locally, a requirements.txt file is provided
+
+```bash
+git clone https://github.com/Priyanshiguptaaa/Flipkart_Product_Categorization/-.git
+cd Flipkart_Product_Categorization/
+pip install -r requirements.txt
+```
+
+
 ## Models Summary
 
 | Model Name       | Accuracy           |       
@@ -100,6 +110,7 @@ For product categorization task, the conventional methods are based on machine l
 2. 3-5 Attention Layers in Seq2Seq Translation
 3. 3-5 Attention Layers with Cross Entropy Validation in Seq2Seq Machine Transaltion
 4. Ensembling the best Seq2Seq Attention model explored with the Transformer model
+
 
 ## Publication References
 
