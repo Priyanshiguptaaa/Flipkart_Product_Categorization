@@ -13,7 +13,7 @@
 9. [Conclusions](#concluions)
 10. [Future Scope](#future-scope)
 11. [Code References](#code-references)
-12. [References](#references)
+12. [Publication References](#publication-references)
 
 ## About
 
@@ -64,10 +64,10 @@ https://docs.google.com/spreadsheets/d/1pLv0fNE4WHokpJHUIs-FTVnmI9STgog05e658qEO
 ## Future Scope
 
 1. 3-5 Attention Layers in Seq2Seq Translation
-2. 3-5 Attention Layers with Cross Validation in Seq2Seq Machine Transaltion
+2. 3-5 Attention Layers with Cross Entropy Validation in Seq2Seq Machine Transaltion
 3. Ensembling the best Seq2Seq Attention model explored with the Transformer model
 
-## References
+## Publication References
 
 [1] "Unconstrained Product Categorization with Sequence-to-Sequence Models". Maggie Yundi Li, Liling Tan, Stanley Kok, Ewa Szymanska. 2018. https://www.comp.nus.edu.sg/~skok/papers/ecomdc18.pdf
 
