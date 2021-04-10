@@ -68,6 +68,9 @@ https://docs.google.com/spreadsheets/d/1pLv0fNE4WHokpJHUIs-FTVnmI9STgog05e658qEO
 
 2. [Seq2Seq + Attention + Teacher Forcing Neural Machine Transaltion ( 1 Attention Layer )](https://github.com/Priyanshiguptaaa/Flipkart_Product_Categorization/tree/main/Seq2Seq_Attention_Machine_Translation)
 
+For product categorization task, the conventional methods are based on machine learning classification algorithms, but this paper : - 
+("Don’t Classify, Translate: Multi-Level E-Commerce Product Categorization Via Machine Translation". Maggie Yundi Li, Liling Tan, Stanley Kok. 2018. https://arxiv.org/pdf/1812.05774.pdf ) has proposed a new paradigm based on machine translation and it has shown that this approach achieves better predictiion accuracy than the classification system. Here we have implemented the proposed model.
+
 #### Classification Report
 
 ![after_cleaning_categories](https://github.com/Priyanshiguptaaa/Flipkart_Product_Categorization/blob/main/results/Classificationreport_seq2seq.png)
