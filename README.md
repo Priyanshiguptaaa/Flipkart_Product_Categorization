@@ -41,6 +41,8 @@ https://docs.google.com/spreadsheets/d/1pLv0fNE4WHokpJHUIs-FTVnmI9STgog05e658qEO
 - The dataset has 2 NA values in the Description which were Dropped
 - The Product Category Tree has 337 Rows of Data that does not have a Primary Category Specified, thus they were categorised as "Others" to avoid loss of Data
 
+**Note: Alternate approach to cleaning can be using BeautifulSoup and Selenium to scrape the product category from the website using the Product URL 
+
 
 ## Data Visualization
 
