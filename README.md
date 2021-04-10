@@ -10,7 +10,7 @@
 6. [Approaches](#approaches)
 7. [Build on Google Colab](#build-on-google-colab)
 8. [Models Summary](#models-summary)
-9. [Conclusions](#concluions)
+9. [Conclusions](#conclusions)
 10. [Future Scope](#future-scope)
 11. [Publication References](#publication-references)
 
@@ -83,11 +83,10 @@ For product categorization task, the conventional methods are based on machine l
 
 #### Classification Report
 
-![after_cleaning_categories](https://github.com/Priyanshiguptaaa/Flipkart_Product_Categorization/blob/main/results/Classificationreport_seq2seq.png)
+![classification_report](https://github.com/Priyanshiguptaaa/Flipkart_Product_Categorization/blob/main/results/Classificationreport_seq2seq.png)
 
-3. [Tuning BERT Tansformer model for Machine Translation](#)
 
-## Building on Google Colab
+## Build on Google Colab
 
 To get started, upload and open the notebooks in playground mode and run the cells(You must be logged in with your google account and provide additional authorization). If you want to run locally, a requirements.txt file is provided
 
@@ -97,19 +96,23 @@ cd Flipkart_Product_Categorization/
 pip install -r requirements.txt
 ```
 
-
 ## Models Summary
 
 | Model Name       | Accuracy           |       
 | ---                | ---             |  
 | Seq2Seq + Attention + Teacher Forcing       | 81%    |       
 
+## Conclusions
+
+Based on the previous research done on this task, Machine Translation has been proposed to improve the accuracy and perform better than machine learning classification algorithms. Here we have implemented the same and the Sequence2Sequence model has shown to have 81% accuracy. And the accuracy can be icreased by further experimenting with more Attention Layers and changing the parameters.  
+
 ## Future Scope
 
 1. Running LDA using TFIDF
 2. 3-5 Attention Layers in Seq2Seq Translation
 3. 3-5 Attention Layers with Cross Entropy Validation in Seq2Seq Machine Transaltion
-4. Ensembling the best Seq2Seq Attention model explored with the Transformer model
+4. Training the Transformer Model for Machine Translation
+5. Ensembling the best Seq2Seq Attention model explored with the Transformer model
 
 
 ## Publication References
