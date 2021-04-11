@@ -119,7 +119,7 @@ pip install -r requirements.txt
 4. Training the Transformer Model for Machine Translation
 5. Ensembling the best Seq2Seq Attention model explored with the Transformer model
 6. During translation, entities in a sentence play an important role, and their correct translation heavily affects the
-whole translation quality of the sentence. Therefore, targetting Knowledge Graphs in Encoders in different techniques can be explored. 
+whole translation quality of the sentence. Therefore, targetting Knowledge Graphs in Encoders by using different combining techniques can be explored. 
 7. More research is needed on the various strenghts of RNNs, CNNs, and transformers/attention and ensembling the approaches to combine the best of each.
 
 
