@@ -104,6 +104,8 @@ pip install -r requirements.txt
 
 ## Conclusions
 
+- There are 337 rows in the Category tree that do not have a Primary Category in the dataset. 
+- The dataset is not huge so BERT is not used for machine learning classification
 - RNNs are a good conceptual fit with NLP, but according to research, methods using attention have been achieving state of the art results on NLP.
 - Based on the previous research done on this task, Machine Translation has been proposed to improve the accuracy and perform better than machine learning classification algorithms. Here we have implemented the same and the Sequence2Sequence Attention model has shown to have 81% accuracy. 
 - The accuracy can be icreased by further experimenting with more Attention Layers and changing the parameters.  
