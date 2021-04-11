@@ -143,3 +143,4 @@ pip install -r requirements.txt
 
 [10] "Pay Less Attention with Lightweight and Dynamic Convolutions". Felix Wu, Angela Fan, Alexei Baevski, Yann N. Dauphin, Michael Auli. 2019. https://arxiv.org/abs/1901.10430
 
+[11] "Machine Translation Approaches: Issues and Challenges". M. D. Okpor. 2014. https://www.ijcsi.org/papers/IJCSI-11-5-2-159-165.pdf
