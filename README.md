@@ -118,7 +118,9 @@ pip install -r requirements.txt
 3. 3-5 Attention Layers with Cross Entropy Validation in Seq2Seq Machine Transaltion
 4. Training the Transformer Model for Machine Translation
 5. Ensembling the best Seq2Seq Attention model explored with the Transformer model
-6. More research is needed on the various strenghts of RNNs, CNNs, and transformers/attention and ensembling the approaches to combine the best of each.
+6. During translation, entities in a sentence play an important role, and their correct translation heavily affects the
+whole translation quality of the sentence. Therefore, targetting Knowledge Graphs in Encoders in different techniques can be explored. 
+7. More research is needed on the various strenghts of RNNs, CNNs, and transformers/attention and ensembling the approaches to combine the best of each.
 
 
 ## Publication References
@@ -144,3 +146,13 @@ pip install -r requirements.txt
 [10] "Pay Less Attention with Lightweight and Dynamic Convolutions". Felix Wu, Angela Fan, Alexei Baevski, Yann N. Dauphin, Michael Auli. 2019. https://arxiv.org/abs/1901.10430
 
 [11] "Machine Translation Approaches: Issues and Challenges". M. D. Okpor. 2014. https://www.ijcsi.org/papers/IJCSI-11-5-2-159-165.pdf
+
+[12] "Augmenting Neural Machine Translation with Knowledge Graphs". Diego Moussallem, Mihael Arčan, Axel-Cyrille Ngonga Ngomo, Paul Buitelaar. 2019. https://arxiv.org/pdf/1902.08816.pdf
+
+[13] "Knowledge Graphs Enhanced Neural Machine Translation". Yang Zhao, Jiajun Zhang, Yu Zhou1, Chengqing Zong. 2020. https://www.ijcai.org/proceedings/2020/0559.pdf
+
+[14] "Knowledge Graph Enhanced Neural Machine Translation via Multi-task Learning on Sub-entity Granularity". Yang Zhao, Lu Xiang, Junnan Zhu, Jiajun Zhang, Yu Zhou, Chengqing Zong. 2020. https://www.aclweb.org/anthology/2020.coling-main.397.pdf
+
+
+
+
