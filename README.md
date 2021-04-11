@@ -16,7 +16,7 @@
 
 ## About
 
-This repository illustrates the task of Category Prediction of an E-Commerce Website data (Flipkart), classification of the description of products into the primary categry of their category tree, and getting the notebook documenting the path to an optimal model pipeline
+This repository illustrates the task of applying Machine Translation for Product Categorization of an E-Commerce Website data (Flipkart), classification of the description of products into the primary categry of their category tree, and the documenting the path to an optimal model pipeline
 
 ## Installation
 
