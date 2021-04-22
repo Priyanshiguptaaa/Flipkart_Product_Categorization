@@ -153,6 +153,8 @@ whole translation quality of the sentence. Therefore, targetting Knowledge Graph
 
 [14] "Knowledge Graph Enhanced Neural Machine Translation via Multi-task Learning on Sub-entity Granularity". Yang Zhao, Lu Xiang, Junnan Zhu, Jiajun Zhang, Yu Zhou, Chengqing Zong. 2020. https://www.aclweb.org/anthology/2020.coling-main.397.pdf
 
+[15] "Integrating Graph Contextualized Knowledge into Pre-trained Language Models". Bin He, Di Zhou, Jinghui Xiao, Xin Jiang, Qun Liu, Nicholas Jing Yuan, Tong Xu. 2019. https://arxiv.org/pdf/1912.00147.pdf
+
 
 
 
