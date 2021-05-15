@@ -155,6 +155,15 @@ whole translation quality of the sentence. Therefore, targetting Knowledge Graph
 
 [15] "Integrating Graph Contextualized Knowledge into Pre-trained Language Models". Bin He, Di Zhou, Jinghui Xiao, Xin Jiang, Qun Liu, Nicholas Jing Yuan, Tong Xu. 2019. https://arxiv.org/pdf/1912.00147.pdf
 
+[16] "Visualizing Semantic Structures of Sequential Data by Learning Temporal Dependencies" . Kyoung-Woon On, Eun-Sol Kim, Yu-Jung Heo, Byoung-Tak Zhang
+
+[17] "Everyone Likes Shopping! Multi-class Product Categorization for e-Commerce" Zornitsa Kozareva
+
+[18] "Large-scale Multi-class and Hierarchical Product Categorization for an E-commerce Giant" Ali Cevahir, Koji Murakami
+
+[19] "GRAPHSEQ2SEQ: Graph-sequence-2-sequence for neural machine translation"
+
+
 
 
 
